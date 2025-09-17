@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "target": "ES2020",
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "preserveConstEnums": true,
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true,
+        "declaration": true,
+        "strict": true,
+        "noEmitOnError": false,
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noUncheckedIndexedAccess": false,
+        "noImplicitThis": false,
+        "strictBindCallApply": false,
+        "strictFunctionTypes": true,
+        "strictPropertyInitialization": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "jsx": "react-jsx"
+    },
+    "exclude": ["node_modules", "dist/**/*"],
+    "include": [
+        "src/**/*",
+    ]
+}

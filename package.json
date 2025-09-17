@@ -1,0 +1,32 @@
+{
+  "name": "convex-casdoor-auth",
+  "version": "1.0.0",
+  "description": "Casdoor Auth for Convex",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "postinstall": "patch-package",
+    "start": "NODE_OPTIONS='--no-warnings' node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.14.0",
+  "dependencies": {
+    "casdoor-js-sdk": "^0.16.0",
+    "effect": "^3.17.13",
+    "react": "^19.1.1",
+    "react-router-dom": "^7.9.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.35.0",
+    "@types/react": "^19.1.13",
+    "eslint": "^9.35.0",
+    "eslint-plugin-jsdoc": "^58.1.1",
+    "eslint-plugin-named-import-spacing": "^1.0.3",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "globals": "^16.4.0",
+    "typescript-eslint": "^8.44.0"
+  }
+}
