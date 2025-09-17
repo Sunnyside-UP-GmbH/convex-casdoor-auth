@@ -34,3 +34,10 @@ export function createCasdoorReactClient(config: CasdoorAuthConfig) {
         CasdoorSDK,
     }
 }
+
+// Re-export all modules and types for library consumers
+export * from "./types";
+export { useCasdoorAuth } from "./useCasdoorAuth";
+export { default as Callback } from "./Callback";
+export * from "./state";
+export * from "./error";
